@@ -12,7 +12,7 @@
 		8E077373203AF08400299EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E077371203AF08400299EB3 /* Main.storyboard */; };
 		8E077375203AF08400299EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E077374203AF08400299EB3 /* Assets.xcassets */; };
 		8E077378203AF08400299EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E077376203AF08400299EB3 /* LaunchScreen.storyboard */; };
-		8E077380203AF09300299EB3 /* UNPlayerResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07737F203AF09300299EB3 /* UNPlayerResources.swift */; };
+		8E077380203AF09300299EB3 /* Crasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07737F203AF09300299EB3 /* Crasher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		8E077374203AF08400299EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E077377203AF08400299EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E077379203AF08400299EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E07737F203AF09300299EB3 /* UNPlayerResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UNPlayerResources.swift; path = ../UNPlayerResources.swift; sourceTree = "<group>"; };
+		8E07737F203AF09300299EB3 /* Crasher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Crasher.swift; path = ../Crasher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		8E077361203AF08400299EB3 = {
 			isa = PBXGroup;
 			children = (
-				8E07737F203AF09300299EB3 /* UNPlayerResources.swift */,
+				8E07737F203AF09300299EB3 /* Crasher.swift */,
 				8E07736C203AF08400299EB3 /* Test */,
 				8E07736B203AF08400299EB3 /* Products */,
 			);
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E077380203AF09300299EB3 /* UNPlayerResources.swift in Sources */,
+				8E077380203AF09300299EB3 /* Crasher.swift in Sources */,
 				8E077370203AF08400299EB3 /* ViewController.swift in Sources */,
 				8E07736E203AF08400299EB3 /* AppDelegate.swift in Sources */,
 			);
