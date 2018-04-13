@@ -1,5 +1,3 @@
-import Foundation
-
 func afunction() {
     let nestedA: (_: (@escaping (Error?) -> Void)) -> Void = { (_) in
     }
