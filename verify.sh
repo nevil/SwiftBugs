@@ -13,4 +13,5 @@ execswift SR-7055.swift -c -v
 execswift SR-7153.swift -c -v
 execswift SR-7235.swift -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -target arm64-apple-ios10.0 -c -v
 execswift SR-7295.swift -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+execswift SR-7425.swift -c -v
 
