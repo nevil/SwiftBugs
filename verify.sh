@@ -14,3 +14,7 @@ execswift SR-7235.swift -sdk /Applications/Xcode.app/Contents/Developer/Platform
 execswift SR-7295.swift -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 execswift SR-7425.swift -c -v
 
+pushd SR-7784
+execswift SR-7784.swift -c -F . -framework VersionedKit.framework
+popd
+

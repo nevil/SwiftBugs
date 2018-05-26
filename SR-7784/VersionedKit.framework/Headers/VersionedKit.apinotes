@@ -1,0 +1,20 @@
+Name: VersionedKit
+
+Tags:
+- Name: AnonymousEnum
+  EnumKind: NSEnum
+
+- Name: NamedEnum
+  EnumKind: NSEnum
+
+Enumerators:
+- Name: AnonymousEnumA
+  SwiftName: AnonymousEnum.a
+- Name: AnonymousEnumB
+  SwiftName: AnonymousEnum.b
+
+- Name: NamedEnumA
+  SwiftName: NamedEnum.a
+- Name: NamedEnumB
+  SwiftName: NamedEnum.b
+
