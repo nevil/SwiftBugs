@@ -24,3 +24,5 @@ IOS_TARGET="arm64-apple-ios12.0"
 $SWIFTC -frontend -sdk $IOS_SDK -target $IOS_TARGET -c -update-code -primary-file SR-8150.swift -emit-migrated-file-path SR-8150.migrated.swift -swift-version 4
 execswift SR-8150.migrated.swift -c -v -sdk $IOS_SDK -target $IOS_TARGET
 
+$SWIFTC -sdk $IOS_SDK -target $IOS_TARGET -c Radar-41712912.swift
+
