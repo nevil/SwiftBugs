@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E566DB2211C48910025ECAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E566DB1211C48910025ECAB /* AppDelegate.swift */; };
+		8E566DB4211C48910025ECAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E566DB3211C48910025ECAB /* ViewController.swift */; };
+		8E566DB7211C48910025ECAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E566DB5211C48910025ECAB /* Main.storyboard */; };
+		8E566DB9211C48930025ECAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E566DB8211C48930025ECAB /* Assets.xcassets */; };
+		8E566DBC211C48930025ECAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E566DBA211C48930025ECAB /* LaunchScreen.storyboard */; };
+		9DA8276214C3FCB9A8D0F969 /* libPods-Cantlink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBDE46DB7421A87C1FE2189 /* libPods-Cantlink.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B3BA77894464D17BB4AA083 /* Pods-Cantlink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantlink.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Cantlink/Pods-Cantlink.debug.xcconfig"; sourceTree = "<group>"; };
+		792366F97DB57F5987F60E2E /* Pods-Cantlink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantlink.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cantlink/Pods-Cantlink.release.xcconfig"; sourceTree = "<group>"; };
+		8E566DAE211C48910025ECAB /* Cantlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E566DB1211C48910025ECAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E566DB3211C48910025ECAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E566DB6211C48910025ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E566DB8211C48930025ECAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E566DBB211C48930025ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E566DBD211C48930025ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67C10DA0F7B537B9330EAED /* Pods-Cantlink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cantlink.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Cantlink/Pods-Cantlink.release.xcconfig"; sourceTree = "<group>"; };
+		FFBDE46DB7421A87C1FE2189 /* libPods-Cantlink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cantlink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E566DAB211C48910025ECAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA8276214C3FCB9A8D0F969 /* libPods-Cantlink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0550080B90D5CDC771704D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFBDE46DB7421A87C1FE2189 /* libPods-Cantlink.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E566DA5211C48910025ECAB = {
+			isa = PBXGroup;
+			children = (
+				8E566DB0211C48910025ECAB /* Cantlink */,
+				8E566DAF211C48910025ECAB /* Products */,
+				CD9B49A4EDBE2AD04C1A8870 /* Pods */,
+				6F0550080B90D5CDC771704D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E566DAF211C48910025ECAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E566DAE211C48910025ECAB /* Cantlink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E566DB0211C48910025ECAB /* Cantlink */ = {
+			isa = PBXGroup;
+			children = (
+				8E566DB1211C48910025ECAB /* AppDelegate.swift */,
+				8E566DB3211C48910025ECAB /* ViewController.swift */,
+				8E566DB5211C48910025ECAB /* Main.storyboard */,
+				8E566DB8211C48930025ECAB /* Assets.xcassets */,
+				8E566DBA211C48930025ECAB /* LaunchScreen.storyboard */,
+				8E566DBD211C48930025ECAB /* Info.plist */,
+			);
+			path = Cantlink;
+			sourceTree = "<group>";
+		};
+		CD9B49A4EDBE2AD04C1A8870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B3BA77894464D17BB4AA083 /* Pods-Cantlink.debug.xcconfig */,
+				E67C10DA0F7B537B9330EAED /* Pods-Cantlink.release.xcconfig */,
+				792366F97DB57F5987F60E2E /* Pods-Cantlink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E566DAD211C48910025ECAB /* Cantlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E566DC0211C48930025ECAB /* Build configuration list for PBXNativeTarget "Cantlink" */;
+			buildPhases = (
+				111004C7F866413C043374EA /* [CP] Check Pods Manifest.lock */,
+				8E566DAA211C48910025ECAB /* Sources */,
+				8E566DAB211C48910025ECAB /* Frameworks */,
+				8E566DAC211C48910025ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cantlink;
+			productName = Cantlink;
+			productReference = 8E566DAE211C48910025ECAB /* Cantlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E566DA6211C48910025ECAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Anders Hasselqvist";
+				TargetAttributes = {
+					8E566DAD211C48910025ECAB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 8E566DA9211C48910025ECAB /* Build configuration list for PBXProject "Cantlink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E566DA5211C48910025ECAB;
+			productRefGroup = 8E566DAF211C48910025ECAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E566DAD211C48910025ECAB /* Cantlink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E566DAC211C48910025ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E566DBC211C48930025ECAB /* LaunchScreen.storyboard in Resources */,
+				8E566DB9211C48930025ECAB /* Assets.xcassets in Resources */,
+				8E566DB7211C48910025ECAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		111004C7F866413C043374EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cantlink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E566DAA211C48910025ECAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E566DB4211C48910025ECAB /* ViewController.swift in Sources */,
+				8E566DB2211C48910025ECAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E566DB5211C48910025ECAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E566DB6211C48910025ECAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E566DBA211C48930025ECAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E566DBB211C48930025ECAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E566DBF211C48930025ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E566DC2211C48930025ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792366F97DB57F5987F60E2E /* Pods-Cantlink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5KPGVG932;
+				INFOPLIST_FILE = Cantlink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hasselqvist.example.Cantlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E566DA9211C48910025ECAB /* Build configuration list for PBXProject "Cantlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E566DBF211C48930025ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E566DC0211C48930025ECAB /* Build configuration list for PBXNativeTarget "Cantlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E566DC2211C48930025ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E566DA6211C48910025ECAB /* Project object */;
+}
